@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const path = require('path')
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
@@ -13,34 +14,34 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What is the project about? What problem does it solve?',
+        message: 'Provide a short description explaining the what, why, and how of your project.',
         name: 'description',
       },
       {
         type: 'input',
-        message: 'Any information that user will need to install the application?',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
         name: 'installation',
       },
       {
         type: 'input',
-        message: 'How does someone use the application?',
+        message: 'Provide instructions and examples for use. Include screenshots as needed.',
         name: 'usage',
       },
       {
         type: 'input',
-        message: 'How can a user contribute to this repository?',
-        name: 'contribution',
-      },
-      {
-        type: 'input',
-        message: 'Provide any information regarding the testing of the application:',
-        name: 'test',
+        message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
+        name: 'tests',
       },
       {
         type: 'rawlist',
         name: 'license',
-        message: 'What license are you utilizing on this project?',
-        choices: ['Apache License 2.0', 'GNU General Public License', 'MIT License', 'BSD 3-Clause "New" or "Revised" license', 'BSD 2-Clause "simplified" license', 'Boost Software License 1.0', 'Creative Commons Zero v1.0 Universal', 'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0', 'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0', 'The Unlicense', 'None']
+        message: 'The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project.',
+        choices: ['Apache License 2.0', 'MIT License', 'Eclipse Public License 2.0', 'None']
+      },
+      {
+        type: 'input',
+        message: 'If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you prefer.',
+        name: 'email',
       },
       {
         type: 'input',
@@ -50,7 +51,7 @@ const questions = [
       {
         type: 'input',
         message: 'What is your email address?',
-        name: 'questions',
+        name: 'email',
       },
 
 
