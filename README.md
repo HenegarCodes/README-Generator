@@ -1,8 +1,9 @@
-# jsdkljf
+# lksdjflkjsadlkfja;sljd
+  ![GitHub license](https://img.shields.io/badge/license-Eclipse Public License 2.0-blue.svg)
 
 ## Description
 
-ldskjf
+kjshdnfkaskdjfksjahdfkhsdfkknbnkdnbknsknskdcnksdncksdncksdnflsnd.flkjasldkfjlakjnsdfkljnasfd
 
 
 ## Table of Contents
@@ -11,37 +12,37 @@ ldskjf
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+/n - [License](#license)
 
 ## Installation
 
-kjsdhf
+jsdkhfjklashdflksadjhfksahjdfklashjldkfhaslkfdhalkdhfkahsdkfhaskdfhklafncknaskcnakscnkasnckjsandcknasckajsndlkcnasklnjcklancklansdkclcnascnaskc
 
 ## Usage
 
-jkasdf
+kjhdfclkahscdklnhaslknj
 
 ## Credits
 
 undefined
 
-# Tests
+## Tests
 
-adsfjk
+kljsdhflakhscdlkjasldkcjasl;jcdl;ajl;asjdlcjaslkcjl;askcjlasjclsakdacjlsjlsjcsa
 
 ## License
 
-MIT License
+## License
+    
+    The license utilized on this project is Eclipse Public License 2.0
+    
 
 ## How to Contribute
 
-lasdkjf
+kjhsdafjkasdhfkjlashdfkjasdjklhflajkshfdlkashfkldash
 
-## My Email
+## Questions
 
-aladksfj
-
-## GitHub Username
-
-lkdajsf
+If you have an questions on how to utilize, install, contribute or anything else to do with this application please reach me at my email: ajslfdjals;j@gmail.com
+and feel free to give me a follow to collaborate on GitHub: https://github.com/kdsjflj
 
