@@ -45,6 +45,11 @@ const questions = [
       },
       {
         type: 'input',
+        message: 'If there are any third party sources or other contributors you would like to mention that worked on this project please put them here.',
+        name: 'credits',
+      },
+      {
+        type: 'input',
         message: 'What is your Github username?',
         name: 'username',
       },

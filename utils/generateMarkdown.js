@@ -10,8 +10,9 @@ return '';
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if(license !== 'none'){
-    return '- [License](#license)'
+    return '\n* [License](#license)\n'
   }
+  return '';
 }
 
 // TODO: Create a function that returns the license section of README
@@ -23,6 +24,7 @@ function renderLicenseSection(license) {
     The license utilized on this project is ${license}
     `
   }
+  return '';
 }
 
 // TODO: Create a function to generate markdown for README
@@ -40,8 +42,7 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-${renderLicenseLink(data.license)}
+- [Credits](#credits)${renderLicenseLink(data.license)}
 
 ## Installation
 
@@ -58,7 +59,6 @@ ${data.credit}
 ## Tests
 
 ${data.tests}
-
 
 ${renderLicenseSection(data.license)}
 
