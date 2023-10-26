@@ -42,8 +42,10 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)${renderLicenseLink(data.license)}
-
+- [Credits](#credits)
+- [Tests](#tests)${renderLicenseLink(data.license)}
+- [How to Contribute](#contribute)
+- [Questions](#questions)
 ## Installation
 
 ${data.installation}
@@ -54,7 +56,7 @@ ${data.usage}
 
 ## Credits
 
-${data.credit}
+${data.credits}
 
 ## Tests
 
